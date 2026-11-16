@@ -1,6 +1,6 @@
 # AVPlayer stalls at the end after deselecting an ended subtitle and seeking
 
-Reported to Apple as FB25595337.
+Reported to Apple as [FB25595337](https://openradar.appspot.com/FB25595337).
 
 1. AVPlayer streams 3 HLS tracks: subtitles, audio, video.
 2. The subtitle track arrives quickly (it is one WebVTT segment).
