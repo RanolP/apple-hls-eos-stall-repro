@@ -1,5 +1,7 @@
 # AVPlayer stalls at the end after deselecting an ended subtitle and seeking
 
+Reported to Apple as FB25595337.
+
 1. AVPlayer streams 3 HLS tracks: subtitles, audio, video.
 2. The subtitle track arrives quickly (it is one WebVTT segment).
 3. Subtitle track reaches end of stream ✅
@@ -7,6 +9,10 @@
 5. Seek. The subtitle's end of stream is cleared ❌, but the off track never reports it again.
 6. Audio and video reach end of stream ✅ ✅
 7. AVPlayer keeps waiting for the subtitle track: `PlaybackStalled`, never `DidPlayToEndTime`.
+
+## Workaround
+
+Keep a legible option selected instead of `select(nil)`. To hide it, add an `AVPlayerItemLegibleOutput` with `suppressesPlayerRendering = true` before `replaceCurrentItem(with:)`; set later, the cue already on screen stays frozen.
 
 ## Run
 
