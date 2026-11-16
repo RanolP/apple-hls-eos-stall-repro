@@ -14,7 +14,7 @@
 /* Begin PBXFileReference section */
 		A20000000000000000000001 /* Repro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repro.swift; sourceTree = "<group>"; };
 		A20000000000000000000004 /* content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = content; sourceTree = "<group>"; };
-		A20000000000000000000005 /* HLSLegibleStall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLSLegibleStall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000005 /* AppleHLSEOSStallRepro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleHLSEOSStallRepro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 		A40000000000000000000004 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A20000000000000000000005 /* HLSLegibleStall.app */,
+				A20000000000000000000005 /* AppleHLSEOSStallRepro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,9 +56,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A50000000000000000000001 /* HLSLegibleStall */ = {
+		A50000000000000000000001 /* AppleHLSEOSStallRepro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A70000000000000000000002 /* Build configuration list for PBXNativeTarget "HLSLegibleStall" */;
+			buildConfigurationList = A70000000000000000000002 /* Build configuration list for PBXNativeTarget "AppleHLSEOSStallRepro" */;
 			buildPhases = (
 				A60000000000000000000001 /* Sources */,
 				A30000000000000000000001 /* Frameworks */,
@@ -68,9 +68,9 @@
 			);
 			dependencies = (
 			);
-			name = HLSLegibleStall;
-			productName = HLSLegibleStall;
-			productReference = A20000000000000000000005 /* HLSLegibleStall.app */;
+			name = AppleHLSEOSStallRepro;
+			productName = AppleHLSEOSStallRepro;
+			productReference = A20000000000000000000005 /* AppleHLSEOSStallRepro.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -83,7 +83,7 @@
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 			};
-			buildConfigurationList = A70000000000000000000001 /* Build configuration list for PBXProject "HLSLegibleStall" */;
+			buildConfigurationList = A70000000000000000000001 /* Build configuration list for PBXProject "AppleHLSEOSStallRepro" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -95,7 +95,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A50000000000000000000001 /* HLSLegibleStall */,
+				A50000000000000000000001 /* AppleHLSEOSStallRepro */,
 			);
 		};
 /* End PBXProject section */
@@ -165,7 +165,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.repro.HLSLegibleStall;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.repro.AppleHLSEOSStallRepro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -181,7 +181,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.repro.HLSLegibleStall;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.repro.AppleHLSEOSStallRepro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -191,7 +191,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A70000000000000000000001 /* Build configuration list for PBXProject "HLSLegibleStall" */ = {
+		A70000000000000000000001 /* Build configuration list for PBXProject "AppleHLSEOSStallRepro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A90000000000000000000001 /* Debug */,
@@ -200,7 +200,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A70000000000000000000002 /* Build configuration list for PBXNativeTarget "HLSLegibleStall" */ = {
+		A70000000000000000000002 /* Build configuration list for PBXNativeTarget "AppleHLSEOSStallRepro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A90000000000000000000003 /* Debug */,

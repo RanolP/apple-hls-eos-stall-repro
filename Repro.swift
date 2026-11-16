@@ -10,7 +10,7 @@ import Network
 import SwiftUI
 
 @main
-struct ReproApp: App {
+struct AppleHLSEOSStallRepro: App {
     init() {
         #if os(macOS)
         NSApplication.shared.setActivationPolicy(.accessory)  // run from Terminal without taking focus
